@@ -3,9 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="./icons/favicon.ico"
-            type="image/x-icon">
         <title>Portfolio</title>
+        <meta name="description" content>
+        <!-- <link rel="icon" type="image/svg"
+            href="http://localhost/portfolio/icon/favicon.svg"> -->
+        <meta name='freelancehunt' content='dfe46c3a20a0462'>
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="https://portfoliogregory.netlify.app/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="https://portfoliogregory.netlify.app/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="https://portfoliogregory.netlify.app/favicon-16x16.png">
+        <link rel="manifest"
+            href="https://portfoliogregory.netlify.app/site.webmanifest">
+        <link rel="mask-icon"
+            href="https://portfoliogregory.netlify.app/safari-pinned-tab.svg"
+            color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -21,17 +37,31 @@
         <div class="wrapper">
             <header>
                 <div class="header-wrapper">
-                    <div class="logo">
+                    <!-- <div class="logo">
                         <a href="#"><h2>G</h2></a>
+                    </div> -->
+                    <div class="new-logo">
+                        <a href="#"><img class="logo-img"
+                                src="./icons/favicon.svg" alt="Логотип"
+                                width="80" height="80"></a>
+                        <a href="#"><img class="logo-img-mobile"
+                                src="./icons/favicon.svg" alt="Логотип"
+                                width="60" height="60"></a>
                     </div>
                     <nav class="header-nav">
                         <ul class="header-item">
                             <li class="header-list"><a class="header-link"
-                                    href="#about">Про мене</a></li>
+                                    href="#about">Про мене</a>
+                            </li>
                             <li class="header-list"><a class="header-link"
-                                    href="#portfolio">Портфоліо</a></li>
+                                    href="https://portfoliogregory.netlify.app/resume_uk.html">Резюме</a>
+                            </li>
                             <li class="header-list"><a class="header-link"
-                                    href="#feedback">Контакти</a></li>
+                                    href="#portfolio">Портфоліо</a>
+                            </li>
+                            <li class="header-list"><a class="header-link"
+                                    href="#feedback">Контакти</a>
+                            </li>
                         </ul>
                     </nav>
                     <div class="header_burger">
@@ -40,11 +70,17 @@
                     <nav class="burger_menu">
                         <ul class="burger_item">
                             <li class="burger_list"><a class="burger_link"
-                                    href="#about">Обо мне</a></li>
+                                    href="#about">Про мене</a>
+                            </li>
                             <li class="burger_list"><a class="burger_link"
-                                    href="#portfolio">Портофолио</a></li>
+                                    href="https://portfoliogregory.netlify.app/resume_uk.html">Резюме</a>
+                            </li>
                             <li class="burger_list"><a class="burger_link"
-                                    href="#feedback">Контакты</a></li>
+                                    href="#portfolio">Портофолио</a>
+                            </li>
+                            <li class="burger_list"><a class="burger_link"
+                                    href="#feedback">Контакты</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -53,25 +89,26 @@
                 <section id="about">
                     <div class="about">
                         <div class="about-left">
-                            <h3>Привіт мене звуть Григорій!</h3>
+                            <h3>Вітання, мене звуть Григорій!</h3>
                             <img class="adaptiv-foto"
                                 src="./img/photo_2023-11-19_18-47-31.jpg"
                                 alt="My photo" width="650">
                             <p class="about-text">
-                                Я розробник-початківець з Києва. Дуже
+                                Я розробник із Києва. Дуже
                                 подобається
                                 створення красивих веб-сторінок з використанням
-                                HTML5, CSS3 та JavaScript або jQuery.
+                                HTML5, CSS3, PHP, Node.js, JavaScript та jQuery.
                                 Інші мої навички
                                 включають WordPress та створення Чат-ботів.
+                                Радий розглянути ваш оффер і обговорити можливість співпраці.
                             </p>
                             <p class="about-text">
-                                Ви можете отримати моє резюме в
+                                Ви можете отримати моє резюме
                                 <a class="resume"
-                                    href="/resume_en.html">англійська</a> або
+                                    href="./resume_en.html">англійською</a> або
                                 <a class="resume"
-                                    href="/resume_uk.html">українська</a>
-                                версія.
+                                    href="./resume_uk.html">українською</a>
+                                мовами.
                             </p>
                             <p class="connection-title">Якщо ви зацікавлені
                                 у моїх послугах або просто хочете
@@ -204,7 +241,8 @@
                                     <div class="anny">
                                         <p>2023 г.</p>
                                     </div>
-                                    <h3>Комерційний сайт з базою даних клієнтів (WordPress)</h3>
+                                    <h3>Комерційний сайт з базою даних клієнтів
+                                        (WordPress)</h3>
                                     <img src="./icons/arrow-left.svg"
                                         alt="arrow-left" width="35">
                                 </div>
@@ -225,7 +263,8 @@
                                         alt="arrow-right" width="35">
                                 </div>
                                 <div class="portfolio-block-right_3">
-                                    <img src="./img/Boda-Agency.png" alt="Фото сайта"
+                                    <img src="./img/Boda-Agency.png"
+                                        alt="Фото сайта"
                                         width="400">
                                 </div>
                             </div>
@@ -254,9 +293,11 @@
                         <div class="portfolio-line">
                             <div class="portfolio-line-left_3"></div>
                             <div class="portfolio-line-right_3"></div>
-                        </div> 
+                        </div>
                         <div class="github">
-                            <a href="https://github.com/semenovgrigorij">Відвідати мій профіль GitHub</a>
+                            <a
+                                href="https://github.com/semenovgrigorij">Відвідати
+                                мій профіль GitHub</a>
                         </div>
                         <div id="feedback" class="feedback">
                             <p class="connection-title">Якщо ви зацікавлені
@@ -303,8 +344,16 @@
                     <div class="footer-wrapper-left">
                         <p>&#169; 2023 Development and design by Gregory
                             Semenov</p>
-                        <div class="logo">
+                        <!-- <div class="logo">
                             <a href="#"><h2>G</h2></a>
+                        </div> -->
+                        <div class="new-logo">
+                            <a href="#"><img class="logo-img"
+                                    src="./icons/favicon.svg" alt="Логотип"
+                                    width="40" height="40"></a>
+                            <a href="#"><img class="logo-img-mobile"
+                                    src="./icons/favicon.svg" alt="Логотип"
+                                    width="60" height="60"></a>
                         </div>
                     </div>
                     <div class="footer-wrapper-center">
@@ -312,6 +361,8 @@
                             <ul class="header-item">
                                 <li class="header-list"><a class="header-link"
                                         href="#about">Про мене</a></li>
+                                <li class="header-list"><a class="header-link"
+                                        href="https://portfoliogregory.netlify.app/resume_uk.html">Резюме</a></li>
                                 <li class="header-list"><a class="header-link"
                                         href="#portfolio">Портфоліо</a></li>
                                 <li class="header-list"><a class="header-link"
@@ -341,7 +392,8 @@
                             <div class="popup_content">
                                 <form id="discussion-form"
                                     class="discussion-form"
-                                    name="contact" netlify>
+                                    name="contact" action="./thank_you.html"
+                                    method="POST" netlify>
                                     <input type="hidden" name="project_name"
                                         value="Portfolio" />
                                     <input

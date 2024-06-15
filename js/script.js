@@ -27,7 +27,7 @@ $(document).ready(function () {
 
 //E-mail Ajax Send
 
-$(document).ready(function () {
+/* $(document).ready(function () {
   $(".discussion-form").submit(function () {
     //Change
     var th = $(this);
@@ -49,6 +49,6 @@ $(document).ready(function () {
       });
     return false;
   });
-});
+}); */
 
 
